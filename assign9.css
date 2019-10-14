@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montaga|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/* list of all fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montaga', serif;
+font-family: 'Roboto Condensed', sans-serif; */
+a
+{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 76px !important;
+}
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+.bodyclass
+{
+  background-color: #e7e7e7;
+}
+
+.navo
+{
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.logo
+{
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bgimage {
+  width:100%;
+  height:600px;
+  background: url("heroimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bgimage2 {
+  width:100%;
+  height:700px;
+  background: url("technologies.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bgimage3 {
+  width:100%;
+  height:700px;
+  margin:auto;
+  background: url("workexp.png")
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
