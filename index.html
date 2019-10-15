@@ -9,10 +9,10 @@
   </head>
   <body class="bodyclass">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navo">
-  <a class="navbar-brand" href="#"><img src="res\logo.png" alt="" class="logo"></a>
+      <nav class="navbar navbar-expand-lg bg-light navo" id="nava">
+  <a class="navbar-brand" href="#"><img src="res\logo.png" alt="" class="logo" id="laga"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"> <img src="menubutton.png" alt="" id="menubutt" class="menubut"> </span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,18 +45,21 @@
     </ul>
     <ul class="navbar-nav mr-right">
       <li class="nav-item">
-        <input type="checkbox" checked data-toggle="toggle">Dark Mode
+        <button type="button" class="btn btn-primary" onclick="darkmode()">DARK MODE</button>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" style="color:blue">Contact</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-primary" onclick="location.reload()">LIGHT MODE</button>
       </li>
       </ul>
   </div>
 </nav>
     </header>
     <br><br><br><br><br>
-    <section id="first">
-      <section class="bgimage">
+    <section>
+      <section class="bgimage" id="first">
   <div class="container-fluid">
     <div class="row">
       <br><br><br><br><br>
@@ -69,7 +72,7 @@
             </div>
             <p> Web Development | Music Production | Illustrations </p>
       <br><br><br><br>
-      <button type="button" class="btn btn-primary btn-lg">Contact</button>
+      <button type="button" class="btn btn-primary btn-lg" id="contact">Contact</button>
     </div>
     </div>
   </div>
@@ -82,69 +85,33 @@
       </div>
     </div>
     <br><br><br>
-    <section id="second">
-      <section class="bgimage2">
+    <section>
+      <section class="bgimage2" id="second">
         <div class="container-fluid">
           <br><br>
           <h1 class="display-5 text-center" style="color:white;"> TECHNOLOGIES </h1>
-        <div class="row"  style="display:flex;padding:8% 15%;margin:auto;">
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Cras justo odio</li>
-      <li class="list-group-item">Dapibus ac facilisis in</li>
-      <li class="list-group-item">Vestibulum at eros</li>
-    </ul>
-    <div class="card-body">
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
 
+        <div class="row"  style="display:flex;padding:5% 10%;margin:auto;">
+            <div class="col text-center">
+            <img src="res\js.png" alt="" class="techlogo">
+            <br><br>
+            <h3 class="techpara">I have industry experience of programming in Javascript.</p>
           </div>
 
-        </div>
+          <div class="col text-center">
+            <img src="res\html5.png" alt="" class="techlogo">
+            <br><br>
+            <h3 class="techpara">I can create versatile structures in HTML to suit your needs.</p>
+          </div>
+
+          <div class="col text-center">
+            <img src="res\css3.png" alt="" class="techlogo">
+            <br><br>
+            <h3 class="techpara">My amazing CSS skills allow me to create designs that stand out.</p>
+          </div>
+          </div>
+
+
         </div>
       </section>
     </section>
@@ -155,12 +122,12 @@
       </div>
     </div>
     <br><br><br>
-    <section id="third">
-      <section class="bgimage3">
+    <section>
+      <section class="bgimage3"  id="third">
         <div class="container-fluid">
           <div class="row">
           </div>
-          <div class="row">
+          <div class="row exp">
             <div class="col-4">
               <h3>Evo Technologies <br>
               July 2018 - Present</h3>
@@ -179,10 +146,28 @@
               </ul>
             </div>
           </div>
-          <div class="row">
+          <div class="row exp">
+            <div class="col-4">
+              <h3>Scottish Power <br>
+              October 2015 - July 2018</h3>
+
+            </div>
+            <div class="col-8">
+              <h4>SAP TECHNICAL ADMINISTRATOR</h4>
+              <ul>
+                <li>Providing technical support to agents around issues in SAP CRM and ISU software mechanism.</li>
+                <li>Fixing technical account issues in SAP& ISU.</li>
+                <li>
+                  Working with different departments of Scottish Power to rectify problems and emergencies.
+                </li>
+                <li>Conducting coaching sessions, team briefs and meetings to explain new processes, policies and to help enhance knowledge base to be efficient at achieving targets around KPIs.</li>
+
+              </ul>
+            </div>
           </div>
         </div>
       </section>
+      <br><br>
     </section>
       <!-- bootstrap cdn -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
