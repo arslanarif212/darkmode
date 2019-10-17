@@ -10,7 +10,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 {
   width: 70%;
   height: 70%;
-  padding-top: 20%;
+  padding-top: 30%;
 }
 
 .techlogo-dark
@@ -145,3 +145,63 @@ body
   background-size:cover;
   background-attachment: fixed;
 }
+@media screen and (max-width: 900px) {
+
+.techlogo
+{
+  width: 50%;
+  height: 50%;
+  padding-top: 35%;
+}
+h3
+{
+font-size: 150% !important;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .techlogo
+  {
+    width: 40%;
+    height: 40%;
+    padding-top: 40%;
+  }
+  h1{
+    font-size: 200% !important;
+  }
+  li
+  {
+    line-height: 180%;
+  }
+
+  h3
+  {
+  font-size: 120% !important;
+  }
+
+  h4 , li
+  {
+  font-size: 100% !important;
+  }
+
+}
+  @media screen and (max-width: 400px) {
+    h1{
+      font-size: 150% !important;
+    }
+    li
+    {
+      line-height: 100%;
+    }
+
+    h3
+    {
+    font-size: 100% !important;
+    }
+
+    h4 , li
+    {
+    font-size: 70% !important;
+    }
+
+  }
