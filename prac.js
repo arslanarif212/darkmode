@@ -42,3 +42,18 @@ function qscs() {
  }
 
 }
+
+function cola ()
+{
+  var ImgNm = ["d1.png","d2.png","d3.png","d4.png"];
+  var i = 0;
+  i = Math.floor(Math.random() * 4);
+  var q = 0;
+  q = Math.floor(Math.random() * 4);
+ var patha = "d/" + ImgNm[i];
+ var pathb = "d/" + ImgNm[q];
+ var mea = document.getElementById('ima');
+ var meb = document.getElementById('yma');
+mea.setAttribute("src",patha);
+meb.setAttribute("src",pathb);
+}
