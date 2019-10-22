@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="simplecalc.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <header>
+      <!-- As a link -->
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Calculator</a>
+      </nav>
+    </header>
+    <section>
+      <div class="jumbotron jo">
+      <div class="col-3">
+            <div class="row">
+            <div class="col text-center">
+              <input type="number" name="" value="" size="30" id="disp1">
+              <br><br>
+              <button type="button" name="button" class="btn btn-primary btn-lg but dig">1</button>
+              <button type="button" name="button" class="btn btn-primary btn-lg but  dig"> 2 </button>
+              <button type="button" name="button" class="btn btn-primary btn-lg but  dig"> 3 </button>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <button type="button" name="button" class="btn btn-primary btn-lg but  dig"> 4 </button>
+              <button type="button" name="button" class="btn btn-primary btn-lg but  dig"> 5 </button>
+              <button type="button" name="button" class="btn btn-primary btn-lg but  dig"> 6 </button>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <button type="button" name="button" class="btn btn-primary btn-lg but  dig"> 7 </button>
+              <button type="button" name="button" class="btn btn-primary btn-lg but  dig"> 8 </button>
+              <button type="button" name="button" class="btn btn-primary btn-lg but  dig"> 9 </button>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <button type="button" name="button" class="btn btn-primary btn-lg but dig"> 0 </button>
+            </div>
+          </div>
+
+      </div>
+
+        <div class="col-3">
+          <button type="button" name="button" class="btn btn-primary btn-lg but oop" onclick="math('add')">+</button>
+          <button type="button" name="button" class="btn btn-primary btn-lg but oop" onclick="math('minus')"> - </button>
+          <button type="button" name="button" class="btn btn-primary btn-lg but oop" onclick="math('divi')"> / </button>
+          <button type="button" name="button" class="btn btn-primary btn-lg but oop" onclick="math('mul')"> x </button>
+          <div>
+            <h3 id="resu"></h3>
+          </div>
+        </div>
+
+        <div class="col-3">
+              <div class="row">
+              <div class="col text-center">
+                <input type="number" name="" value="" size="30" id="disp2">
+                <br><br>
+                <button type="button" name="button" class="btn btn-primary btn-lg but dig1">1</button>
+                <button type="button" name="button" class="btn btn-primary btn-lg but  dig1"> 2 </button>
+                <button type="button" name="button" class="btn btn-primary btn-lg but  dig1"> 3 </button>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">
+                <button type="button" name="button" class="btn btn-primary btn-lg but  dig1"> 4 </button>
+                <button type="button" name="button" class="btn btn-primary btn-lg but  dig1"> 5 </button>
+                <button type="button" name="button" class="btn btn-primary btn-lg but  dig1"> 6 </button>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">
+                <button type="button" name="button" class="btn btn-primary btn-lg but  dig1"> 7 </button>
+                <button type="button" name="button" class="btn btn-primary btn-lg but  dig1"> 8 </button>
+                <button type="button" name="button" class="btn btn-primary btn-lg but  dig1"> 9 </button>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col text-center">
+                <button type="button" name="button" class="btn btn-primary btn-lg but dig1"> 0 </button>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <script type="text/javascript" src="simplecalc.js">
+
+    </script>
+  </body>
+</html>
